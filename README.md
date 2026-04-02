@@ -1,10 +1,10 @@
-# 🏔️ Parallax Effect — Adventure Scrolling Webpage
+# Parallax Effect — Adventure Scrolling Webpage
 
 > A smooth, CSS-only parallax scrolling experience built for adventure enthusiasts, no JavaScript, no libraries, just pure HTML & CSS magic.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Tools and Technologies](#tools-and-technologies)
@@ -19,7 +19,7 @@
 
 ---
 
-## 🌄 Overview
+## Overview
 
 This project demonstrates the **CSS Parallax Scrolling technique**, a visual effect where background layers move at different speeds relative to the foreground as the user scrolls, creating a stunning illusion of depth and motion.
 
@@ -33,7 +33,7 @@ This project is ideal for showcasing:
 
 ---
 
-## 🛠️ Tools and Technologies
+## Tools and Technologies
 
 | Technology | Purpose |
 |---|---|
@@ -49,7 +49,7 @@ This project is ideal for showcasing:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Parallax/
@@ -69,7 +69,7 @@ Parallax/
 
 ---
 
-## ⚙️ Methods
+## Methods
 
 ### 1. CSS 3D Parallax (Hero Section)
 The hero uses the browser's native 3D rendering engine
@@ -79,7 +79,7 @@ The three activity sections use a simpler, widely-supported technique
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - **Two parallax techniques** are combined: CSS 3D transforms (hero) and `background-attachment: fixed` (panels) - each optimal for its use case.
 - The `perspective` property **must be on the scroll container** (`.wrapper`), not the body, so the effect tracks with scroll position correctly.
@@ -89,7 +89,7 @@ The three activity sections use a simpler, widely-supported technique
 
 ---
 
-## 🖼️ Output
+## Output
 
 The page renders three distinct visual zones:
 
@@ -106,7 +106,7 @@ The page renders three distinct visual zones:
 
 <a name="how-to-run-this-project"></a>
 
-## ▶️ How to Run This Project
+## How to Run This Project
 
 ### Option 1 — Open directly (simplest)
 ```bash
@@ -131,7 +131,7 @@ xdg-open index.html      # Linux
 
 <a name="result-and-conclusion"></a>
 
-## ✅ Result and Conclusion
+## Result and Conclusion
 
 The project successfully demonstrates a **silky-smooth parallax scrolling experience** using only native browser CSS capabilities. The dual-technique approach (3D transforms for the hero & fixed background for panels) shows an understanding of when to use each method based on performance and compatibility trade-offs.
 
@@ -143,7 +143,7 @@ Key achievements:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] **Mobile support** : Add an Intersection Observer JS fallback for `background-attachment: fixed` on iOS Safari
 - [ ] **Smooth scroll snapping** : Add CSS `scroll-snap` for section-by-section navigation
@@ -155,14 +155,15 @@ Key achievements:
 
 ---
 
-## 👤 Author and Contact
+## Author and Contact
 
 **Manas Gulati**
 Frontend Developer
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ManasGulati)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manasgulatiryu)
-[![Email](https://img.shields.io/badge/Email-FF5722?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manasgulati222@gmail.com)
+
+📧 [manasgulati222@gmail.com](mailto:manasgulati222@gmail.com)
 
 > 📬 Feel free to open an issue or reach out if you'd like to collaborate or give feedback!
 
