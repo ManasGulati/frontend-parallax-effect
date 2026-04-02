@@ -45,7 +45,7 @@ This project is ideal for showcasing:
 | **VS Code** | Development environment |
 | **Live Server** | Local dev server for hot reload |
 
->  No JavaScript. No frameworks. No dependencies.
+> No JavaScript. No frameworks. No dependencies.
 
 ---
 
@@ -84,7 +84,7 @@ The three activity sections use a simpler, widely-supported technique
 - **Two parallax techniques** are combined: CSS 3D transforms (hero) and `background-attachment: fixed` (panels) - each optimal for its use case.
 - The `perspective` property **must be on the scroll container** (`.wrapper`), not the body, so the effect tracks with scroll position correctly.
 - `scale()` is a required companion to `translateZ()` to avoid elements appearing zoomed out.
-- `background-attachment: fixed` does **not work on iOS Safari** ,a known browser limitation for mobile. A JS-based fallback (e.g. Intersection Observer) would be needed for full mobile support.
+- `background-attachment: fixed` does **not work on iOS Safari**, a known browser limitation for mobile. A JS-based fallback (e.g. Intersection Observer) would be needed for full mobile support.
 - **No JavaScript** means instant load, zero layout shift, and perfect Lighthouse performance scores.
 
 ---
@@ -104,12 +104,14 @@ The page renders three distinct visual zones:
 
 ---
 
+<a name="how-to-run-this-project"></a>
+
 ## ▶️ How to Run This Project
 
 ### Option 1 — Open directly (simplest)
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Parallax.git
+git clone https://github.com/ManasGulati/Parallax.git
 
 # Open in browser
 open index.html          # macOS
@@ -123,9 +125,11 @@ xdg-open index.html      # Linux
 3. Right-click `index.html` -> **"Open with Live Server"**
 4. Browser auto-opens at `http://127.0.0.1:5500`
 
-> ✅ No npm install. No build commands. No configuration.
+> No npm install. No build commands. No configuration.
 
 ---
+
+<a name="result-and-conclusion"></a>
 
 ## ✅ Result and Conclusion
 
@@ -158,9 +162,10 @@ Frontend Developer
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ManasGulati)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manasgulatiryu)
-[![Email](https://img.shields.io/badge/Email-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](manasgulati222@gmail.com)
+[![Email](https://img.shields.io/badge/Email-FF5722?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manasgulati222@gmail.com)
 
 > 📬 Feel free to open an issue or reach out if you'd like to collaborate or give feedback!
 
 ---
 
+<p align="center">Made with ❤️ and pure CSS</p>
