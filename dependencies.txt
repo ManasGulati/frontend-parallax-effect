@@ -1,0 +1,21 @@
+# Parallax Effect — Dependencies
+# ================================
+# This is a pure HTML + CSS project.
+# No external libraries, frameworks, or package managers are required.
+
+# Runtime Requirements
+# --------------------
+# - A modern web browser (Chrome 80+, Firefox 75+, Safari 13+, Edge 80+)
+#   • CSS perspective & transform-style: preserve-3d  → supported in all modern browsers
+#   • background-attachment: fixed                    → note: may not work on iOS Safari (known limitation)
+
+# Development Tools (optional)
+# -----------------------------
+# - VS Code        : https://code.visualstudio.com/
+# - Live Server    : VS Code extension by Ritwick Dey (for hot-reload dev server)
+
+# Assets
+# -------
+# All images are bundled inside the /Assets folder — no CDN or internet required.
+
+# No npm, pip, or any package manager needed.
